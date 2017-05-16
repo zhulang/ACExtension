@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name         = 'ACExtension'
-    s.version      = '1.0.1'
+    s.version      = '1.0.0'
     s.summary      = 'categorys of the classes ( included by UIKit or NSFoundation)'
     s.homepage     = 'https://github.com/zhulang/ACExtension'
     s.license      = 'MIT'
