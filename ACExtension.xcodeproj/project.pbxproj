@@ -28,7 +28,6 @@
 		6FAECD3F1ECACE1000F6B56B /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAECD281ECACE1000F6B56B /* UITabBar+badge.m */; };
 		6FAECD401ECACE1000F6B56B /* UITextField+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAECD2A1ECACE1000F6B56B /* UITextField+Expand.m */; };
 		6FAECD411ECACE1000F6B56B /* UIViewController+Expand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAECD2C1ECACE1000F6B56B /* UIViewController+Expand.m */; };
-		6FAECD421ECACE1000F6B56B /* UnderLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAECD2E1ECACE1000F6B56B /* UnderLineView.m */; };
 		6FAECD431ECACE1000F6B56B /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAECD321ECACE1000F6B56B /* UIViewAdditions.m */; };
 /* End PBXBuildFile section */
 
@@ -74,8 +73,6 @@
 		6FAECD2A1ECACE1000F6B56B /* UITextField+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Expand.m"; sourceTree = "<group>"; };
 		6FAECD2B1ECACE1000F6B56B /* UIViewController+Expand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Expand.h"; sourceTree = "<group>"; };
 		6FAECD2C1ECACE1000F6B56B /* UIViewController+Expand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Expand.m"; sourceTree = "<group>"; };
-		6FAECD2D1ECACE1000F6B56B /* UnderLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderLineView.h; sourceTree = "<group>"; };
-		6FAECD2E1ECACE1000F6B56B /* UnderLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderLineView.m; sourceTree = "<group>"; };
 		6FAECD2F1ECACE1000F6B56B /* UIKitExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtension.h; sourceTree = "<group>"; };
 		6FAECD311ECACE1000F6B56B /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
 		6FAECD321ECACE1000F6B56B /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
@@ -187,8 +184,6 @@
 				6FAECD2A1ECACE1000F6B56B /* UITextField+Expand.m */,
 				6FAECD2B1ECACE1000F6B56B /* UIViewController+Expand.h */,
 				6FAECD2C1ECACE1000F6B56B /* UIViewController+Expand.m */,
-				6FAECD2D1ECACE1000F6B56B /* UnderLineView.h */,
-				6FAECD2E1ECACE1000F6B56B /* UnderLineView.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -285,7 +280,6 @@
 				6FAECD391ECACE1000F6B56B /* UIButton+Expand.m in Sources */,
 				6FAECD3A1ECACE1000F6B56B /* UIColor+Extension.m in Sources */,
 				6FAECCFC1ECACDF800F6B56B /* ViewController.m in Sources */,
-				6FAECD421ECACE1000F6B56B /* UnderLineView.m in Sources */,
 				6FAECD331ECACE1000F6B56B /* NSAttributedString+Extension.m in Sources */,
 				6FAECD3E1ECACE1000F6B56B /* UINavigationBar+Extension.m in Sources */,
 				6FAECCF91ECACDF800F6B56B /* AppDelegate.m in Sources */,
@@ -452,6 +446,7 @@
 				6FAECD0A1ECACDF800F6B56B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
