@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.authors      = {'Achilles_Chu' => '610730060@qq.com'}
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/zhulang/ACExtension.git', :tag => s.version}
-    s.source_files = 'Extension/*.{h,m}'
+    s.source_files = 'Extension/**/*.{h,m}'
     s.requires_arc = true
 end
