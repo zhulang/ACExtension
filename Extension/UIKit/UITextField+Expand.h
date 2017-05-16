@@ -10,5 +10,4 @@
 
 @interface UITextField (Expand)
 - (NSDictionary *)regexPassword:(NSString *)text;
-- (void)loginView_drawRect:(CGRect)rect;
 @end
